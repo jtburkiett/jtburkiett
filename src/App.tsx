@@ -100,7 +100,7 @@ export default function Album() {
                   </Button> */}
                 </Grid>
                 <Grid item>
-                  <Button variant="outlined" color="primary" href="https://www.thesocialdilemma.com/the-dilemma/">
+                  <Button variant="outlined" color="primary" href="https://www.thesocialdilemma.com/the-dilemma/" target="_blank">
                     Why not social media?
                   </Button>
                 </Grid>
@@ -128,7 +128,7 @@ export default function Album() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" color="primary" href={card.link}>
+                    <Button size="small" color="primary" href={card.link} target="_blank">
                       Go!
                     </Button>
                   </CardActions>
